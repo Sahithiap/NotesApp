@@ -1,0 +1,27 @@
+{
+  "name": "notesapp-backend",
+  "version": "1.0.0",
+  "description": "Backend API for NotesApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "notes",
+    "api",
+    "express",
+    "node"
+  ],
+  "author": "Sahithi Ap",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
