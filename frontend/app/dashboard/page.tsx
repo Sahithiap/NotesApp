@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import axios from "../../utils/axios";
+import api from '../../lib/api';
 import { useRouter } from "next/navigation";
 
 interface Note {
@@ -77,3 +77,4 @@ export default function NotesDashboard() {
     </main>
   );
 }
+
